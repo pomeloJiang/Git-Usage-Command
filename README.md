@@ -29,6 +29,7 @@ git status | 查看修改的文件状态
 git diff <**file**> | 查看文件的修改内容 
 git show commit-id | 显示某次提交的内容
 git show branch-name | 查看某个分支的最近提交的内容
+git lg -G "str" filePath/ | 查找某个文件中某个字符串的提交历史
 
 
 ### 3、撤销

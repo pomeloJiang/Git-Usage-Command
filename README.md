@@ -30,6 +30,12 @@ git diff <**file**> | 查看文件的修改内容 
 git show commit-id | 显示某次提交的内容
 git show branch-name | 查看某个分支的最近提交的内容
 git lg -G "str" filePath/ | 查找某个文件中某个字符串的提交历史
+git stash /  git stash save <message> | 将工作区的修改存储到暂存区
+git stash show | 查看暂存区最近一次记录
+git stash pop | 取出最近一次修改
+git stash list | 查看暂存区列表
+git stash apply stash@{N} | 取出暂存区列表相应的缓存
+git stash drop stash@{N} | 删除暂存区列表对应记录
 
 
 ### 3、撤销
